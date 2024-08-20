@@ -1,0 +1,38 @@
+@forward 'globals';
+.grid{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20px;
+  &__image{
+    img{
+      text-align: center;
+      width: 300px;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  }
+  &__description{
+    width: 300px;
+    padding: 10px 15px;
+    padding-top: 0;
+    text-align: center;
+    h1{
+      padding-bottom: 15px;
+      margin: 0;
+      font-weight: 700;
+      font-size: 22px;
+      color: #101F34;
+    }
+    p{
+      color: grey;
+      font-size: 15px;
+      font-weight: 400;
+      padding-bottom: 5px;
+      padding-inline: 5px;
+    }
+  }
+
+}
