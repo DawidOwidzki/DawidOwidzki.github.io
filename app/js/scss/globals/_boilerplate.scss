@@ -1,11 +1,13 @@
+@use '../util' as *;
 html{
-  background-color: #D5E1EF ;
+  
   box-sizing: border-box;
 }
 body{
+  background-color: #D5E1EF ;
   padding: 0;
   margin: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: $font;
 }
 *, *::before,*::after{
   box-sizing: inherit;
